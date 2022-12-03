@@ -6,5 +6,5 @@ const inputRange = document.querySelector('#font-size-control');
 // (event) => text.style.fontSize = `${event.currentTarget.value}px`);
 
 // ! Вариант 2
-input.addEventListener('input', 
+inputRange.addEventListener('input', 
 () => text.style.fontSize = `${inputRange.value}px`);
