@@ -10,5 +10,5 @@ function getRandomHexColor() {
 
  function changeColor () {
   colorEl.textContent = getRandomHexColor();
-  bodyEl.style.backgroundColor = getRandomHexColor();
+  bodyEl.style.backgroundColor = colorEl.textContent;
  };
